@@ -8,17 +8,21 @@
     <link href="animate.css" rel="stylesheet" type="text/css">
     <link href="suppstyle.css" rel="stylesheet" type="text/css">
     <style>
-        html { 
-  background: url(gpufire.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
+        html {
+            background: url(gpufire.jpg) no-repeat center center fixed;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
+        
         body {
             font-family: 'Comic Sans MS', 'Open Sans', sans-serif;
             font-weight: 700;
         }
+
+        
+       body, a:hover {cursor: url(http://ani.cursors-4u.net/cursors/cur-12/cur1103.ani), url(http://ani.cursors-4u.net/cursors/cur-12/cur1103.png), progress !important;}
         
         .content {
             margin: 0 auto;
@@ -29,15 +33,22 @@
             color: lime;
             background-color: black;
         }
+        
+        .fire {
+            position: fixed;
+            width: 100%;
+        }
     </style>
 </head>
 
 <body>
+    <div class="fire"><img width="100%" src="Realistic-fire-animated-transparent-gif.gif">
+    </div>
     <div class="content">
         <img src="tombstone.jpg">
         <h1 class="fade-in-out">R.I.P. Geo's third GPU on 2/17/15</h1>
-        <p class="animated infinite bounce sparkle marching-red-ants" >It's been</p>
-       <span class="shudder"> <script>
+        <p class="animated infinite bounce sparkle marching-red-ants">It's been</p>
+        <span class="shudder"> <script>
             /*
             Count up from any date script-
             By JavaScript Kit (www.javascriptkit.com)
@@ -62,7 +73,7 @@
                 //enter the count up date using the format year/month/day
             countup(2014, 12, 10)
            </script></span>
-        <p class="animated infinite swing sparkle" >that Geo has been without a GPU.</p>
+        <p class="animated infinite swing sparkle">that Geo has been without a GPU.</p>
     </div>
 </body>
 
